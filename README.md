@@ -3,3 +3,5 @@ Recently during an interview I was asked how I would approach a problem. At face
 
 
 ## The background can be found in [here](background.md)
+
+![](plot.png?raw=True)
