@@ -8,7 +8,7 @@ floors = 100
 """
 import numpy as np
 import seaborn as sns
-from init import BinarySplit, Ball, binary_splitting, gradient_ascent
+from init import binary_splitting, gradient_ascent
 tests_per_type = 1_000
 step_min = 4
 step_max = 20 
@@ -20,6 +20,7 @@ for x in range(tests_per_type):
     for n in range(step_min, step_max+1):
         results.append(pd.DataFrame(gradient_ascent(steps=n)))
 results_df = pd.concat(results, ignore_index=True)
+# 
 # What is the average number of floors tested per method? 
 plot_df = results_df.groupby(['test_type','steps']).count_floors_checked.mean().reset_index()
 plot_df = plot_df.assign(count_floors_checked_rank=plot_df.count_floors_checked.rank().astype(int))
