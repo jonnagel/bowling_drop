@@ -1,4 +1,4 @@
-[source](https://blogs.oregonstate.edu/rudb2/2022/02/22/two-bowling-balls/)
+# The following text is from [source](https://blogs.oregonstate.edu/rudb2/2022/02/22/two-bowling-balls/)
 
 Two Bowling Balls
 =================
