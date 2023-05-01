@@ -8,7 +8,7 @@ The question as phrased: "Given 2 bowling balls that need drop hardness testing,
 
 The answer to the basic question of how to check with the fewest steps and limited to 2 balls is 10.
 
-TL;DR 10 steps
+TL;DR Check every 10 floors until a break
 
 In English - Start at the tenth floor going up by 10 floors for each unbroken ball, leaving one ball in reserve yields an average of 12.36 checks.
 
